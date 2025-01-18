@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+.section1{
+    background-image: url(https://i.pinimg.com/736x/05/8d/75/058d752862d326e3253cc58f07d776bf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.btn_mostramensagen{
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: 2px solid white;
+}
+
+.img_alinha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & img {
+        height: 20rem;
+        width: 20rem;
+    }
+}
+.cs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+}
